@@ -1,3 +1,37 @@
- html {
-     background: #fff000;
- }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: rgba(173, 223, 126, 0.5);
+    padding: 5rem;
+    background: url(https://unsplash.com/photos/ViEBSoZH6M4);
+}
+
+#title {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+form {
+    background: rgba(5, 95, 5, 0.5);
+    padding: 2rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+#comment,
+#submit {
+    width: 100%;
+}
